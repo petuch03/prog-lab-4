@@ -11,8 +11,8 @@ public class Main {
             final Mama mama = new Mama();
         }
         People people = new People();
-        people.mama.setSweets(6);
-        people.papa.setSweets(7);
+        people.mama.setSweets(5);
+        people.papa.setSweets(3);
 
         Listochek[] listochki = new Listochek[3];
         listochki[0] = new Listochek("большая");
@@ -70,8 +70,6 @@ public class Main {
         System.out.print("\n");
 
         try {
-            people.mama.giveSweet(people.papa);
-            people.mama.giveSweet(people.papa);
             people.mama.giveSweet(people.papa);
             people.mama.giveSweet(people.papa);
             people.mama.giveSweet(people.papa);

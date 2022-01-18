@@ -58,6 +58,6 @@ public abstract class Person implements ActionForAllPersons {
 
     @Override
     public void beExpected() {
-        System.out.println(name + " полн больших надежд");
+        System.out.println(name + " полон больших надежд");
     }
 }
